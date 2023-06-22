@@ -1,0 +1,82 @@
+.form-container {
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 100px;
+  }
+
+  .heading{
+    width: 40%;
+    height: 20px;
+    padding: 10px;
+    background-color: #3b9ac6;
+    margin-bottom: 30px;
+    font-weight: 600;
+    font-size: 18px;
+    
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    display: flex;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    width: 50%;
+    font-size: 18px;
+  }
+  
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #e9e9e9;
+    width: 20%;
+    margin-left: 40%;
+  }
+  
+  input[type="checkbox"] {
+    margin-left: 5px;
+    width: 10%;
+    margin-left: 20%;
+  }
+  
+  .calcbtn {
+    padding: 10px 20px;
+    background-color: tomato;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+
+  .resetbtn{
+    padding: 10px 20px;
+    background-color: rgb(152, 142, 142);
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  
+  .result-group {
+    margin-top: 20px;
+    display: flex;
+  }
+  
+  .result-group label {
+    font-size: 18px;
+  }
+  
+  .result-group span {
+    margin-left: 5px;
+    margin-left: 40%;
+    width: 20%;
+  }
+  
